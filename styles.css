@@ -34,7 +34,9 @@ body div{
 #title-heading{
     font-weight: 700px;
     font-size: 74px;
+    margin-bottom: 6px;
 }
+
 
 #language-headnote{
     text-align: right;
