@@ -1,3 +1,8 @@
+:root{
+    --main-blue: #3a7dc3;
+    --main-red: #d8474c;
+    --main-gray: #e5e5e5;
+}
 #language-headnote{
     text-align: right;
 }
