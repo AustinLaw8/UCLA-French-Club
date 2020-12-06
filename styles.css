@@ -49,6 +49,13 @@ img{
     padding:0px;
 }
 
+@media screen and (max-width: 960px){
+    #title > span > img{
+        display: none;
+        line-height: 1.1;
+    }
+}
+
 #title-heading{
     font-weight: 700px;
     font-size: 74px;
