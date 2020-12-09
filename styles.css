@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap');
 
 :root{
     --main-blue: #3a7dc3;
@@ -10,13 +10,15 @@
 *{
     margin:0px;
     padding:0px;
+    padding-bottom: 10px;
     font-family: 'Arya', sans-serif;
     font-size: 34px;
     font-weight: 100px;
+    border-radius: var(--padding-amount);
 }
 
 body{
-  max-width: 960px;
+  max-width: 1440px;
   margin: auto;
   margin-top: 0px;
   background: var(--main-gray);
@@ -144,38 +146,34 @@ a:hover{
 }
 
 .subsection{
-    background-color: #E5E5E5;
-    display: grid;
-    grid-template-columns: 55% 40%;
-    grid-template-rows: 20% 52%;
-    gap: 3% 3%;
+    background-color: var(--main-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: var(--padding-amount);
+    padding: 23px 43px;
+    margin-left: 57px;
+    margin-right: 57px;
+    margin-bottom: 10px;
+
+}
+.subsection *{
+    font-family: 'Open-Sans', sans-serif;
+    background-color: var(--main-gray);
 }
 
-#subtitle-1{
-    background-color: #E5E5E5;
-    font: "Open Sans";
-    font-weight: bold;
+.subtitle{
+    font-weight: 600;
     font-size: 44px;
-    line-height: 59.92px;
-    grid-row-start: 1;  
-}
-
-#opp_imag1{
-    background-color: #E5E5E5;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    float: right; 
-    width: 400px;
-    height: 550px;
+    line-height: 1.5;
+    padding-bottom: 34px;
+    padding-top: 12px;
+    margin-right: 10px;
 }
 
 .subtext{
-    background-color: #E5E5E5;
-    font: "Open Sans";
-    font-weight: normal;
+    font-weight: 300;
     font-size: 36px;
-    line-height: 49.03px;  
-    grid-row-start: 2;
+    line-height: 1.5;  
 }
 
