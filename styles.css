@@ -5,6 +5,7 @@
     --main-red: #d8474c;
     --main-gray: #e5e5e5;
     --padding-amount: 8px;
+    --scale-amount: .75;
 }
 
 *{
@@ -22,6 +23,8 @@ body{
   margin: auto;
   margin-top: 0px;
   background: var(--main-gray);
+  transform: scale(0.75);
+  transform-origin: center;
 }
 
 body div{
