@@ -142,3 +142,40 @@ a:hover{
 #body-item2{
     grid-column: 2;
 }
+
+.subsection{
+    background-color: #E5E5E5;
+    display: grid;
+    grid-template-columns: 55% 40%;
+    grid-template-rows: 20% 52%;
+    gap: 3% 3%;
+}
+
+#subtitle-1{
+    background-color: #E5E5E5;
+    font: "Open Sans";
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 59.92px;
+    grid-row-start: 1;  
+}
+
+#opp_imag1{
+    background-color: #E5E5E5;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    float: right; 
+    width: 400px;
+    height: 550px;
+}
+
+.subtext{
+    background-color: #E5E5E5;
+    font: "Open Sans";
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49.03px;  
+    grid-row-start: 2;
+}
+
